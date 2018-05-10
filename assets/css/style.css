@@ -1,0 +1,171 @@
+.background {
+
+	position: absolute;
+	top: 10px;
+	}
+
+/*Gifs ratings go here*/
+
+h1 {
+	position: absolute;
+	top: 520px;
+	left: 650px;
+    text-align: center;
+    color: #993366;
+    z-index: 2;
+}
+
+#currentSport {
+	position: absolute;
+	top: 620px;
+	left: 680px;
+    text-align: center;
+    color: navy;
+    z-index: 2;
+}
+
+
+p {
+
+	left: 0px;
+    text-align: center;
+    color: orange;
+    z-index: 2;
+}
+
+/*parent sports*/
+
+#sports {
+	position: absolute;
+	top: 50px;
+	width: 240px;
+	height: 750px;
+	background: #000066;
+	color: black;
+	opacity: 0.75;
+	filter: alpha(opacity=75);
+	z-index: 1;
+}
+
+/*Single sports go here*/
+
+.mySport {
+
+	position: relative;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 200px;
+	height: 40px;
+	background: lightblue;
+	z-index: 1;
+	color: black;
+}
+
+
+.clearfix::after{
+
+   content:"";
+   display: block;
+   clear: both;
+}
+
+/*Gifs on the left side*/
+
+/* Here I tried to change Gifs' sizes */
+
+.resize{
+	height:148px;
+	width: 100%;
+}
+
+.resize p {
+	height: 10px;
+}
+
+.resize img {
+	height: 125px;
+}
+
+
+#GifsGoHere1 {
+ 	position: absolute;
+	top: 50px;	
+	left: 0px;
+	border: 5px solid #000066;
+	opacity: 0.85;
+	filter: alpha(opacity=85);
+	z-index: 1;
+}
+
+/*Gifs on the right side*/
+
+#GifsGoHere2 {
+ 	position: absolute;
+	top: 50px;	
+	left: 190px;
+	border: 5px solid #000066;
+	opacity: 0.85;
+	filter: alpha(opacity=85);
+	z-index: 1;
+
+}
+
+/*input form*/
+
+#search-form{
+
+	position: absolute;
+	top: 800px;
+	width: 200px;
+	margin-left: 30px;
+	color: black;
+	font-size: 24px;
+	z-index: 1;
+}
+
+
+#search-input{
+
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	width: 200px;
+	height: 40px;
+	background: lightblue;
+	z-index: 2;
+	color: black;
+}
+
+/*add buton*/
+
+#addSport{
+
+	position: absolute;
+	top: 80px;
+	left: 0px;
+	width: 100px;
+	height: 40px;
+	background: #993366;
+	color: black;
+	font-size: 24px;
+	z-index: 2;
+}
+
+
+Changed opacity of the first picture in order to see the form. Feel free to redesign it.
+
+Commented out some of the HTML that we don't need anymore. 
+
+Entered the form I created in place of the new form. 
+
+-the location works well
+-the dropdown menu that works in my MapTest.html file is not showing in the index.html. 
+I am not sure what the issue might be. Please look at MapTest.html to see how it works there.
+-the categories entry still need to be done
+
+I populated the table with the information that I placed under the Map. 
+We can of course list other information as well.
+
+
+

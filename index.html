@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GifTastic</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  </head>
+
+  <body background="assets/images/seamless-dark-blue.jpg">
+    
+    <div class="container">
+        
+
+      <div class="row">
+            
+        <div class="background"> 
+          <img src="assets/images/winter-olympics.jpg" alt="background picture" width="1400" height="931">
+        </div>
+
+        <!-- In this column all sport disciplines are placed -->
+            
+        <div class="col-lg-3">
+
+          <div class="row">
+            <h1>WINTER OLIMPICS</h1>
+            <br>
+            <h3 id="currentSport">My favorite sport:<h3>
+          </div>
+
+
+          <!-- All buttons go here-->
+
+          <div class="row">
+            <button><h5 id="sports"></h5></button>
+          </div>
+
+          <!-- Input form for the new sport -->
+
+          <div class="row">  
+            <form id="search-form">
+              <label for="search-input">Add a new sport:</label>
+              <input type="text" id ="search-input">
+              <input id="addSport" type="submit" value="SUBMIT">
+            </form>    
+          </div>
+        </div>
+
+        <!-- In this column 5 first gifs are placed -->
+
+        <div class="col-lg-3">
+          <div class="row">
+            <div class="clearfix shrinkIt">
+              <div id="GifsGoHere1"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Empty column-->
+
+        <div class="col-lg-3">
+
+        </div>
+
+        <!-- In this column 5 last gifs are placed -->
+
+        <div class="col-lg-3">
+          <div class="row">
+            <div class="clearfix shrinkIt">
+              <div id="GifsGoHere2"></div>
+            </div>
+          </div>
+        </div>
+ 
+      </div>  
+    </div>
+
+
+<!-- JAVASCRIPT  -->
+  
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="assets/javascript/GifTastic.js"></script>
+    
+  </body>
+
+</html>
+
+
+
+
+
